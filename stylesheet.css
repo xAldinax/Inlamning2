@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+nav {
+  top: 0px;
+  position: fixed;
+  margin-top: 0px;
+  width: 1187px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background: #690a12;
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  font-family: 'Handlee', cursive;
+  z-index: 1;
+}
+
+aside {
+  top: 175px;
+  position: fixed;
+  margin-top: 15px;
+  padding: 20px;
+  background: #690a12;
+  text-align: left;
+  color: white;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 150px;
+  right: 8px;
+  z-index: 1;
+
+}
+
+.parallax {
+
+  background-image: url("falafel.jpg");
+
+
+  min-height: 575px;
+
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  margin-top: 50px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  margin-top: 50px;
+  padding: 5px;
+  text-align: center;
+  background: #690a12;
+  color: white;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link {
+
+  color: white;
+  text-decoration: none;
+
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+  padding-right: 15px;
+  background-color: #690a12;
+}
+
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.mapouter {
+  margin-top: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  z-index: 0;
+  position: relative;
+  text-align: right;
+  height: 395px;
+  width: 500px;
+}
+
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 395px;
+  width: 500px;
+}
+
+@media only screen and (max-width: 1000px) {
+  aside {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  footer {
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  main {
+    width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .parallax {
+    width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
